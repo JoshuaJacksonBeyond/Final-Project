@@ -1,0 +1,142 @@
+body, html, p, div, span, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #eeeeee;
+}
+#ultimate {
+    background-color: #dddddd;
+    margin: auto 2.5%;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    box-sizing: border-box;
+}
+#Heading {
+    background-color: #ffffff;
+    padding: 20px;
+}
+h1 {
+    font-weight: 500;
+}
+#Brayden {
+    background-color: #dcdcdc;
+    margin: 70px 2.5% 0px 2.5%;
+}
+#Lemke {
+    background-color: #dcdcdc;
+    padding-top: 25px;
+}
+.collective {
+    display: flex;
+    margin: 25px 2% 25px 2%;
+    padding: 18px 0 18px 10px;
+    background-color: #eeeeee;
+}
+.soup {
+    width: 90%;
+}
+.want {
+    display: flex;
+    justify-content: space-between;
+}
+.userPhoto {
+    background-image: url(userIcon.png);
+    margin: auto 20px;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.chicken {
+    color: #666666;
+    font-size: 16pt;
+}
+.noodle {
+    font-size: 26pt;
+}
+.needed {
+    display: flex;
+}
+#edit {
+    border: none;
+    background-color: #eeeeee;
+    color: #99ddff;
+    font-size: 16pt;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#delete {
+    border: none;
+    background-color: #eeeeee;
+    color: #99ddff;
+    font-size: 16pt;
+    display: flex;
+    padding-right: 15px;
+    justify-content: flex-end;
+}
+.changes {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    padding-top: 15px;
+}
+.textSubmit {
+    width: 1075px;
+}
+#editText {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.cheese {
+    padding-left: 10px;
+}
+#re-edit {
+    border: none;
+    background-color: #eeeeee;
+    color: #99ddff;
+    font-size: 12pt;
+    padding-left: 10px;
+}
+#userSubmission {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto 2.5%;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    box-sizing: border-box;
+}
+#Name, #Commenting {
+    padding-right: 10px;
+}
+#Commenting {
+    width: 1200px;
+}
+#DisplayName {
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#Comment {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#Submission {
+    padding-left: 7px;
+}
+#submit {
+    border: none;
+    background-color: #ffffff;
+    color: #99ddff;
+    font-size: 12pt;
+}
+
+
